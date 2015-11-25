@@ -11,13 +11,7 @@ The report shows various relations between API score and the races.
 
 ```r
 library(ggplot2)
-```
 
-```
-## Loading required package: methods
-```
-
-```r
 RACES <<- c("AA", "AI", "AS", "FI", "HI", "PI", "WH", "MR")
 
 download_data_file <<- function() {
